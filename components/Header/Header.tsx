@@ -13,10 +13,9 @@ const Wrapper = styled.div`
 `;
 
 const Logo = styled.a`
-  display: block;
-  background-color: #000;
-  width: 10em;
-  height: 3em;
+  font-size: 2em;
+  color: #fff;
+  font-weight: bold;
 `;
 
 const LogoWrapper = styled.div`
@@ -31,7 +30,7 @@ export const Header = (): JSX.Element => {
     <Wrapper>
       <LogoWrapper>
         <Link href={`/`} passHref legacyBehavior>
-          <Logo />
+          <Logo>😎 Shopper</Logo>
         </Link>
         <Link href={`/shop/`}>Shop</Link>
       </LogoWrapper>
